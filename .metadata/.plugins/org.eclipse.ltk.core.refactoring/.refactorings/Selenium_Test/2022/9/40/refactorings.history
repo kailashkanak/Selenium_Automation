@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;ActiTime&apos;&#x0D;&#x0A;- Original project: &apos;Selenium_Test&apos;&#x0D;&#x0A;- Destination element: &apos;ActiTime&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Selenium_Jars&#x0D;&#x0A;     Browser_Drivers" description="Copy folders" element1="Selenium_Jars" element2="Browser_Drivers" files="0" flags="589830" folders="2" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1664111778734" target="/ActiTime" units="0" version="1.0"/>
+</session>

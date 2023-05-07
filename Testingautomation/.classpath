@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="Browser_Drivers"/>
+	<classpathentry kind="lib" path="C:/Users/KAILASH KANAK/eclipse-workspace/Testingautomation/Selenium_Jars/byte-buddy-1.8.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/KAILASH KANAK/eclipse-workspace/Testingautomation/Selenium_Jars/client-combined-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/KAILASH KANAK/eclipse-workspace/Testingautomation/Selenium_Jars/client-combined-3.141.59-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/KAILASH KANAK/eclipse-workspace/Testingautomation/Selenium_Jars/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/KAILASH KANAK/eclipse-workspace/Testingautomation/Selenium_Jars/guava-25.0-jre.jar"/>
+	<classpathentry kind="lib" path="C:/Users/KAILASH KANAK/eclipse-workspace/Testingautomation/Selenium_Jars/okhttp-3.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/KAILASH KANAK/eclipse-workspace/Testingautomation/Selenium_Jars/okio-1.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/KAILASH KANAK/eclipse-workspace/Testingautomation/driver/chromedriver.exe"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

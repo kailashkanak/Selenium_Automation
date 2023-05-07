@@ -1,0 +1,36 @@
+package career_form;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ResumeSubmission {
+
+	public static void main(String[] args) throws InterruptedException {
+		 System.setProperty("webdriver.chrome.driver", "D:\\SeleniumDriver\\BrowserDriver\\chromedriver.exe");
+		 WebDriver driver = new ChromeDriver();
+		 driver.manage().window().maximize();
+		 driver.manage().deleteAllCookies();
+		 //driver.manage().timeouts().pageLoadTimeouts(40, TimeUnit.SECONDS);
+		 driver.get("https://www.xoxoday.com/careers/senior-backend-developer-2");
+		 driver.findElement(By.id("First-Name")).sendKeys("KAILASH");
+		 driver.findElement(By.id("Last-Name")).sendKeys("KANAK");
+		 driver.findElement(By.id("Email")).sendKeys("kailash.moon12@gmail.com");
+		 driver.findElement(By.id("Phone-Number")).sendKeys("9801881439");
+		 driver.findElement(By.id("Location")).sendKeys("Bangalore");
+		 driver.findElement(By.id("Current-Salary")).sendKeys("55000");
+		 driver.findElement(By.id("Notice-Period")).sendKeys("15 Days");
+		 driver.findElement(By.id("Linked-In-URL")).sendKeys("https://www.linkedin.com/in/kailash-kanak-1a199236/");
+		 driver.findElement(By.xpath("//label[@role='button' and @class='upload-btn w-file-upload-label']")).sendKeys("C:\\Users\\KAILASH KANAK\\Desktop\\xpath.txt");
+		 driver.findElement(By.xpath("//input[@type='submit' and @value='SUBMIT' ]")).click();
+		 Thread.sleep(1000);
+		 driver.close();
+
+		 
+		 
+		 
+	}
+
+}
